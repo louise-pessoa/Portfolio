@@ -13,4 +13,3 @@ document.querySelectorAll('nav a').forEach(anchor => {
 */
 
 alert("Bem vindo ao meu portifólio!");
-
