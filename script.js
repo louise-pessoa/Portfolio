@@ -12,4 +12,5 @@ document.querySelectorAll('nav a').forEach(anchor => {
 });
 */
 
-alert("Oie!");
+alert("Bem vindo ao meu protifólio!");
+
