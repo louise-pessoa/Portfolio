@@ -1,4 +1,4 @@
-console.log("Seu portfólio está carregado!");
+console.log("O portfólio está carregado!");
 
 /* Exemplo: Scroll suave para as seções
 document.querySelectorAll('nav a').forEach(anchor => {
@@ -12,5 +12,5 @@ document.querySelectorAll('nav a').forEach(anchor => {
 });
 */
 
-alert("Bem vindo ao meu protifólio!");
+alert("Bem vindo ao meu portifólio!");
 
