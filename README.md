@@ -1,7 +1,5 @@
-<center><h1> Portfólio 💼</h1>
-
+# Portfólio 💼
 Repositório do meu portfólio profissional.
-</center>
 
 ## Páginas 📃
 
