@@ -1,5 +1,5 @@
 # Portfólio 💼
-Repositório do meu portfólio profissional.
+Visite o meu portfólio [aqui](index.html)
 
 ## Páginas 📃
 
