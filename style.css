@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
-    background-color: #c3c3c3;
+    background-color: #dbdbdb;
     color: #292929;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ main {
 
 header {
     background: #0b2856;
-    color: #fff;
+    color: #dbdbdb;
     padding: 10rem;
     text-align: left;
 }
@@ -33,7 +33,7 @@ header nav ul li {
     margin: 15px 15px;
 }
 header nav ul li a {
-    color: #fff;
+    color: #dbdbdb;
     text-decoration: none;
     font-family: Lato, sans-serif;
 }
@@ -45,8 +45,7 @@ header nav ul li a:hover {
 section {
     padding: 20px;
     margin: 0 20px;
-    background: #c3c3c3;
-    border-bottom: 1px solid #ddd;
+    background: #dbdbdb;
 }
 
 h1, h2 {
@@ -57,7 +56,7 @@ h1, h2 {
 button {
     font-size: 15px;
     background-color: #0b2856;
-    color: whitesmoke;
+    color: #dbdbdb;
     border-width: 2px;
     border-radius: 5%;
 }
@@ -67,7 +66,7 @@ footer {
     text-align: right;
     padding: 10px;
     background: #0b2856;
-    color: #c3c3c3;
+    color: #dbdbdb;
 }
 
 .intro-area {
@@ -79,7 +78,7 @@ footer {
 
 .nomehome {
     text-align: left;
-    color: white;
+    color: #dbdbdb;
     margin: 0 20px 0 0;
     font-size: 2.5em;
 }
@@ -87,7 +86,7 @@ footer {
 .foto-perfil img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 15%;
     object-fit: cover;
 }
 
@@ -107,4 +106,23 @@ footer {
 }
 .subnav ul li {
     display: inline-block
+}
+
+.toast {
+    visibility: hidden;
+    background-color: #dbdbdb;
+    color: #0b2856;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    position: fixed;
+    z-index: 10;
+    right: 90px;
+    bottom: 50px;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+.toast.show {
+    visibility: visible;
+    opacity: 1;
 }
