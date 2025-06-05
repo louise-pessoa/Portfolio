@@ -6,38 +6,48 @@ body {
     color: #292929;
 }
 
-.nomehome {
-    text-align: left;
-    color: white;
-    margin: 50px 10px;
-    text-shadow: #292929;
-}
-.nomehome:hover {
-    font-style: italic;
-    text-shadow:  #292929;
-}
-
 header {
     background: #0b2856;
     color: #fff;
     padding: 10rem;
     text-align: left;
 }
+
 .intro-area {
-    display: flex;                 /* Liga o modo flex para alinhar itens lado a lado */
-    align-items: center;           /* Alinha verticalmente o nome e a foto */
-    justify-content: space-between;/* Empurra o nome para a esquerda e a foto para a direita */
-    /* Se o padding do header for muito grande, você pode não precisar de padding aqui,
-       ou pode querer um padding específico para esta área. Exemplo:
-       padding-bottom: 2rem; /* Para dar um espaço antes da navegação */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 1px;
 }
+
+.nomehome {
+    text-align: left;
+    color: white;
+    margin: 0 20px 0 0;
+    font-size: 2.5em;
+}
+
+.foto-perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header nav {
+    margin-top: 1px
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
+
 header nav ul li {
-    margin: 40px 15px;
+    margin: 15px 15px;
 }
+
 header nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -64,14 +74,30 @@ h1, h2 {
     border: 1px solid #0b2856;
     padding: 50px;
     margin-bottom: 15px;
-    border-radius: 5px;
+    border-radius: 1%;
 }
 .projeto-item h3 {
     color: rgb(46, 46, 46);
     margin-top: 0;
 }
 
+.subheader {
+    padding: 10px;
+}
+.subnav ul li {
+    display: inline-block
+}
+
+button {
+    font-size: 15px;
+    background-color: #0b2856;
+    color: whitesmoke;
+    border-width: 2px;
+    border-radius: 5%;
+}
+
 footer {
+    
     text-align: right;
     padding: 10px;
     background: #0b2856;
