@@ -52,6 +52,12 @@ h1, h2 {
     color: #0b2856;
     text-align: center;
 }
+.apresentacao {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 button {
     font-size: 15px;
@@ -106,6 +112,14 @@ footer {
 }
 .subnav ul li {
     display: inline-block
+}
+
+.contatos {
+    padding-left: 0px;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
 }
 
 .toast {
