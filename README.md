@@ -1,34 +1,31 @@
-# Portfólio
+<center><h1> Portfólio 💼</h1>
 
-Repositório do meu portfólio profissional
+Repositório do meu portfólio profissional.
+</center>
 
-## Páginas
+## Páginas 📃
 
-### Início:
+### Início ✨
 Contém meu nome, um menu de navegação com 4 opções de informações sobre meu perfil e uma foto minha.
 
 ![Foto Página Inicial](PaginaInicial.png)
 _Tela inicial do portfólio._
 
-### Sobre mim
+### Sobre mim 🙋‍♀️
 Breve descrição sobre quem eu sou e o que me define como estudante e futura profissional de tecnologia.
 
-### Projetos
+### Projetos 🏗️
 Lista dos projetos que eu desenvolvi (sozinha ou não) com uma pequena explicação para cada um.
 
-### Habilidades
+### Habilidades 🏆
 Conhecimentos adquiridos ao longo da minha formação, seja por meio da faculdade ou de maneira autônoma, em ordem cronológica.
 
-### Contato
-Meios possíveis para entrar em contato comigo.
+### Contato ☎️
+Meios para entrar em contato comigo.
 
-## Tecnologias
+## Tecnologias 💻
 Para o desenvolvimento desse portfólio, utilizei as seguintes tecnologias:
 
 - HTML5
 - JavaScript
 - CSS3
-
-<!--
-<img src="GrafLingUtilizadas.png" alt="Gráfico Linguagens Utilizadas" width="350"/>
--->
