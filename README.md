@@ -5,7 +5,7 @@
 ### Início ✨
 Contém meu nome, um menu de navegação com 4 opções de informações sobre meu perfil e uma foto minha.
 
-![Foto Página Inicial](PaginaInicial.png)
+![Foto Página Inicial](imgs/PaginaInicial.png)
 _Tela inicial do portfólio._
 
 ### Sobre mim 🙋‍♀️
