@@ -1,4 +1,4 @@
-console.log("O portfólio está carregado!");
+console.log("O portifólio está carregado!");
 
 window.onload = function() {
     const toastElement = document.getElementById("toast-bemvindo");

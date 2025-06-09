@@ -5,12 +5,12 @@ function jogar() {
         alert("Você NÃO pode jogar!");
     }
     if(idade>=18){
-        escolhaJogador = prompt("Digite 1 para pedra, 2 para papel ou 3 para tesoura: ")
+        escolhaJogador = prompt("Digite 1 para pedra, 2 para papel ou 3 para tesoura: ");
         if(escolhaJogador != 1 && escolhaJogador != 2 && escolhaJogador != 3); {
-            alert("Você digitou uma opção inválida! Reinicie o programa e tente novamente.")
+            alert("Você digitou uma opção inválida! Reinicie o programa e tente novamente.");
         }
 
-        escolhaComputador = Math.floor(Math.random() *3) +1
+        escolhaComputador = Math.floor(Math.random() *3) +1;
 
         if(escolhaJogador == escolhaComputador){
             alert("Empate!");
