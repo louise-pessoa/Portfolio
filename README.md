@@ -1,4 +1,4 @@
-# MEU PORTIFÓLIO 💼
+# MEU PORTFÓLIO 💼
 
 ## Páginas 📃
 
